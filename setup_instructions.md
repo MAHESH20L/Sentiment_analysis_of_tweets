@@ -133,7 +133,7 @@ pip install python-multipart
 Run the backend server using the command.
 
 ```
-uvicorn main:app --reload
+python -m uvicorn main:app --reload 
 ```
 
 The backend server will start at:<br>
