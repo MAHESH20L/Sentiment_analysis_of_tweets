@@ -2,7 +2,7 @@
 
 <br>
 
-**Create Project Folder**
+**1 Create Project Folder**
 
 Open File Explorer on your PC.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Create a new folder called `project_folder`.<br>
@@ -10,7 +10,7 @@ Open File Explorer on your PC.<br>
 
 <br>
 
-**Project Structure**
+**2 Project Structure**
 
 project_folder/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;backend/<br>
@@ -18,7 +18,7 @@ project_folder/<br>
 
 <br>
 
-**Download Backend Code**
+**3 Download Backend Code**
 
 Go to the repository folder `src/backend`.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Download all backend files.<br>
@@ -26,7 +26,7 @@ Go to the repository folder `src/backend`.<br>
 
 <br>
 
-**Backend Folder Structure**
+**4 Backend Folder Structure**
 
 project_folder/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;backend/<br>
@@ -37,14 +37,14 @@ project_folder/<br>
 
 <br>
 
-**Important Requirements File**
+**5 Important Requirements File**
 
 Download the `requirements.txt` file from the repository **sentiment_analysis_on_tweets**.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Save the `requirements.txt` file inside the `backend` folder.
 
 <br>
 
-**Download Frontend Code**
+**6 Download Frontend Code**
 
 Go to the repository folder `src/frontend`.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Download all frontend files.<br>
@@ -52,7 +52,7 @@ Go to the repository folder `src/frontend`.<br>
 
 <br>
 
-**Frontend Folder Structure**
+**7 Frontend Folder Structure**
 
 project_folder/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;backend/<br>
@@ -63,7 +63,7 @@ project_folder/<br>
 
 <br>
 
-**Open Project in VS Code**
+**8 Open Project in VS Code**
 
 Open Visual Studio Code.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Click **File → Open Folder**.<br>
@@ -71,7 +71,7 @@ Open Visual Studio Code.<br>
 
 <br>
 
-**Install Required Extensions**
+**9 Install Required Extensions**
 
 Open the **Extensions tab** in VS Code.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Make sure the following extensions are installed.<br>
@@ -83,14 +83,14 @@ Open the **Extensions tab** in VS Code.<br>
 
 <br>
 
-**Open Terminal in VS Code**
+**10 Open Terminal in VS Code**
 
 Go to the menu.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Click **Terminal → New Terminal**.
 
 <br>
 
-**Navigate to Project Folder**
+**11 Navigate to Project Folder**
 
 In the terminal type the following command.<br>
 
@@ -100,7 +100,7 @@ cd project_folder
 
 <br>
 
-**Move to Backend Folder**
+**12 Move to Backend Folder**
 
 Type the following command.
 
@@ -110,7 +110,7 @@ cd backend
 
 <br>
 
-**Install Backend Dependencies**
+**13 Install Backend Dependencies**
 
 Make sure `requirements.txt` is inside the backend folder.<br>
 Run the following command.
@@ -128,7 +128,7 @@ pip install python-multipart
 
 <br>
 
-**Run Backend Server**
+**14 Run Backend Server**
 
 Run the backend server using the command.
 
@@ -141,7 +141,7 @@ The backend server will start at:<br>
 
 <br>
 
-**Run Frontend**
+**15 Run Frontend**
 
 Go to the `frontend` folder.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Open `index.html` file.<br>
