@@ -5,6 +5,8 @@ Source Code : https://colab.research.google.com/drive/1QVydZrucp5mhr8hfcDt79dwoT
 
 Dataset resource : https://data.world/mercal/btc-tweets-sentiment
 
+Fine-tuned hugging Face model :  https://huggingface.co/PattimaniM/updated_sentiment
+
 **Overview**
    * This project performs sentiment analysis on tweets using modern machine learning and transformer-based natural language processing techniques.
    * The model was fine-tuned using the DistilRoBERTa transformer architecture, which is a lightweight and efficient version of RoBERTa designed for NLP tasks such        as     text classification.
