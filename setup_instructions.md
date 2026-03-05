@@ -1,10 +1,9 @@
 
-CREATE PROJECT FOLDER
+**CREATE PROJECT FOLDER**
 
 
-1. Open File Explorer on your PC.
-
-2. Create a new folder called project_folder.
+ * Open File Explorer on your PC.
+ * Create a new folder called project_folder.
 
 The project structure should look like this:
 
