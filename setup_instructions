@@ -1,8 +1,8 @@
- __Create Project Folder__
-* Open file explorer in your pc and create a new_folder inside that new_folder create two sub_folders, name them as backend and frontend.
+## Create Project Folder
+  * Open file explorer in your pc and create a new_folder inside that new_folder create two sub_folders, name them as backend and frontend.
 
-project_folder/
-│
-├── backend/
-│
-└── frontend/
+    project_folder/
+    │
+    ├── backend/
+    │
+    └── frontend/
