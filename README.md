@@ -7,7 +7,7 @@ Dataset resource : https://data.world/mercal/btc-tweets-sentiment
 
 **Overview**
    * This project performs sentiment analysis on tweets using modern machine learning and transformer-based natural language processing techniques.
-   * The model was fine-tuned using the DistilRoBERTa transformer architecture, which is a lightweight and efficient version of RoBERTa designed for NLP tasks such as     text classification.
+   * The model was fine-tuned using the DistilRoBERTa transformer architecture, which is a lightweight and efficient version of RoBERTa designed for NLP tasks such        as     text classification.
 **Model architechture**
   * Although the base model is DistilRoBERTa, the trained model has been uploaded to Hugging Face under the repository name :                                             https://huggingface.co/PattimaniM/updated_sentiment.
   * The trained model has been uploaded to Hugging Face Hub so that it can be easily used in backend API's.
