@@ -1,6 +1,6 @@
-================================================
+
 CREATE PROJECT FOLDER
-================================================
+
 
 1. Open File Explorer on your PC.
 
@@ -15,9 +15,9 @@ project_folder/
 |---- frontend/
 
 
-================================================
+
 DOWNLOAD BACKEND CODE
-================================================
+
 
 1. Go to the repository folder: src/backend
 
@@ -46,9 +46,8 @@ sentiment_analysis_on_tweets
 Save this requirements.txt file inside the backend folder.
 
 
-================================================
 DOWNLOAD FRONTEND CODE
-================================================
+
 
 1. Go to the repository folder: src/frontend
 
@@ -72,9 +71,8 @@ project_folder/
         |---- script.js
 
 
-================================================
 OPEN PROJECT IN VISUAL STUDIO CODE
-================================================
+
 
 1. Open Visual Studio Code.
 
@@ -83,9 +81,9 @@ OPEN PROJECT IN VISUAL STUDIO CODE
 3. Select your project_folder.
 
 
-================================================
+
 INSTALL REQUIRED EXTENSIONS IN VS CODE
-================================================
+
 
 Make sure the following extensions are installed:
 
@@ -101,18 +99,18 @@ If they are not installed:
 3. Install them.
 
 
-================================================
+
 OPEN TERMINAL IN VS CODE
-================================================
+
 
 Open the terminal by selecting:
 
 Terminal → New Terminal
 
 
-================================================
+
 NAVIGATE TO PROJECT FOLDER
-================================================
+
 
 In the terminal, type:
 
@@ -124,9 +122,9 @@ Then move to backend folder:
 cd backend
 
 
-================================================
+
 INSTALL BACKEND DEPENDENCIES
-================================================
+
 
 Make sure requirements.txt is inside the backend folder.
 
@@ -141,9 +139,9 @@ pip install uvicorn
 pip install python-multipart
 
 
-================================================
+
 RUN THE BACKEND SERVER
-================================================
+
 
 Run the backend server using the command:
 
@@ -155,9 +153,9 @@ The backend server will start at:
 http://127.0.0.1:8000
 
 
-================================================
+
 RUN THE FRONTEND
-================================================
+
 
 1. Go to the frontend folder.
 
@@ -168,9 +166,9 @@ index.html
 3. Run it using a browser or using Live Server in VS Code.
 
 
-================================================
+
 MODEL USED
-================================================
+
 
 The backend loads the trained model from Hugging Face:
 
