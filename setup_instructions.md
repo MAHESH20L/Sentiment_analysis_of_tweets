@@ -1,172 +1,156 @@
+**INSTALLATION AND PROJECT SETUP**
 
-**CREATE PROJECT FOLDER**
+<br>
 
+**Create Project Folder**
 
- * Open File Explorer on your PC.
- * Create a new folder called project_folder.
- * The project structure should look like this : Project_folder->Backend.<br>
-                                                               ->Frontend
+Open File Explorer on your PC.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Create a new folder called `project_folder`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Inside the folder create two subfolders called `backend` and `frontend`.
 
+<br>
 
+**Project Structure**
 
+project_folder/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;backend/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;frontend/
 
-DOWNLOAD BACKEND CODE
+<br>
 
+**Download Backend Code**
 
-1. Go to the repository folder: src/backend
+Go to the repository folder `src/backend`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Download all backend files.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Copy the downloaded files into the `backend` folder.
 
-2. Download all backend files.
+<br>
 
-3. Copy the downloaded backend files into the backend folder.
+**Backend Folder Structure**
 
-Your folder should now look like:
+project_folder/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;backend/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main.py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;requirements.txt<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;model files<br>
+&nbsp;&nbsp;&nbsp;&nbsp;frontend/
 
-project_folder/
-|
-|---- backend/
-|       |
-|       |---- main.py
-|       |---- model files
-|       |---- requirements.txt
-|
-|---- frontend/
+<br>
 
+**Important Requirements File**
 
-IMPORTANT:
+Download the `requirements.txt` file from the repository **sentiment_analysis_on_tweets**.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Save the `requirements.txt` file inside the `backend` folder.
 
-Download the requirements.txt file from the repository:
-sentiment_analysis_on_tweets
+<br>
 
-Save this requirements.txt file inside the backend folder.
+**Download Frontend Code**
 
+Go to the repository folder `src/frontend`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Download all frontend files.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Place them inside the `frontend` folder.
 
-DOWNLOAD FRONTEND CODE
+<br>
 
+**Frontend Folder Structure**
 
-1. Go to the repository folder: src/frontend
+project_folder/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;backend/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;frontend/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.html<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style.css<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;script.js
 
-2. Download all frontend files.
+<br>
 
-3. Copy them into the frontend folder.
+**Open Project in VS Code**
 
-The structure should now look like:
+Open Visual Studio Code.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Click **File → Open Folder**.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Select your `project_folder`.
 
-project_folder/
-|
-|---- backend/
-|       |
-|       |---- main.py
-|       |---- requirements.txt
-|
-|---- frontend/
-        |
-        |---- index.html
-        |---- style.css
-        |---- script.js
+<br>
 
+**Install Required Extensions**
 
-OPEN PROJECT IN VISUAL STUDIO CODE
+Open the **Extensions tab** in VS Code.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Make sure the following extensions are installed.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JavaScript<br>
+&nbsp;&nbsp;&nbsp;&nbsp;If they are not installed, install them from the Extensions marketplace.
 
+<br>
 
-1. Open Visual Studio Code.
+**Open Terminal in VS Code**
 
-2. Click File → Open Folder.
+Go to the menu.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Click **Terminal → New Terminal**.
 
-3. Select your project_folder.
+<br>
 
+**Navigate to Project Folder**
 
+In the terminal type the following command.<br>
 
-INSTALL REQUIRED EXTENSIONS IN VS CODE
-
-
-Make sure the following extensions are installed:
-
-Python
-HTML
-CSS
-JavaScript
-
-If they are not installed:
-
-1. Click the Extensions icon in VS Code.
-2. Search for the extensions.
-3. Install them.
-
-
-
-OPEN TERMINAL IN VS CODE
-
-
-Open the terminal by selecting:
-
-Terminal → New Terminal
-
-
-
-NAVIGATE TO PROJECT FOLDER
-
-
-In the terminal, type:
-
+```
 cd project_folder
+```
 
+<br>
 
-Then move to backend folder:
+**Move to Backend Folder**
 
+Type the following command.
+
+```
 cd backend
+```
 
+<br>
 
+**Install Backend Dependencies**
 
-INSTALL BACKEND DEPENDENCIES
+Make sure `requirements.txt` is inside the backend folder.<br>
+Run the following command.
 
-
-Make sure requirements.txt is inside the backend folder.
-
-Run the following command:
-
+```
 pip install -r requirements.txt
+```
 
+Install additional dependencies.
 
-Then install additional packages:
-
+```
 pip install uvicorn
 pip install python-multipart
+```
 
+<br>
 
+**Run Backend Server**
 
-RUN THE BACKEND SERVER
+Run the backend server using the command.
 
-
-Run the backend server using the command:
-
+```
 uvicorn main:app --reload
+```
 
+The backend server will start at:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;http://127.0.0.1:8000
 
-The backend server will start at:
+<br>
 
-http://127.0.0.1:8000
+**Run Frontend**
 
+Go to the `frontend` folder.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Open `index.html` file.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Run it using a browser or **Live Server in VS Code**.
 
+<br>
 
-RUN THE FRONTEND
+**Model Used**
 
-
-1. Go to the frontend folder.
-
-2. Open the file:
-
-index.html
-
-3. Run it using a browser or using Live Server in VS Code.
-
-
-
-MODEL USED
-
-
-The backend loads the trained model from Hugging Face:
-
-https://huggingface.co/PattimaniM/updated_sentiment
-
-This model performs sentiment analysis on tweets using
-machine learning techniques and a transformer-based architecture.
+The backend loads the trained model from Hugging Face.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;https://huggingface.co/PattimaniM/updated_sentiment<br>
+&nbsp;&nbsp;&nbsp;&nbsp;This model performs sentiment analysis on tweets using transformer-based machine learning techniques.
