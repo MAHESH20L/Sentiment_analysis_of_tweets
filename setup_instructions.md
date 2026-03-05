@@ -4,7 +4,7 @@
 
  * Open File Explorer on your PC.
  * Create a new folder called project_folder.
- * The project structure should look like this : Project_folder->Backend
+ * The project structure should look like this : Project_folder->Backend.<br>
                                                                ->Frontend
 
 
