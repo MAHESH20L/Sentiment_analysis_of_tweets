@@ -21,28 +21,48 @@
 <!-- ===== MAIN CONTENT ===== -->
 <div class="container">
 
-    <!-- UPLOAD -->
+    <!-- UPLOAD CARD -->
     <div class="upload-card">
+
         <h2>Upload CSV File</h2>
+
+        <!-- FILE UPLOAD -->
         <input type="file" id="csvFile" accept=".csv">
-        <br><br>
-        <button onclick="uploadCSV()">Analyze Tweets</button>
+
+        <div class="divider">OR</div>
+
+        <!-- CSV LINK -->
+        <input 
+            type="text" 
+            id="csvLink" 
+            placeholder="Paste CSV file link here (Google Drive, GitHub, etc)"
+        >
+
+        <br>
+
+        <!-- ANALYZE BUTTON -->
+        <button class="analyze-btn" onclick="uploadCSV()">
+            🚀 Analyze Tweets
+        </button>
+
         <div id="loading">⏳ Processing...</div>
+
     </div>
 
-    <!-- DEFAULT TABLE (VISIBLE ALWAYS) -->
+    <!-- TABLE -->
     <div id="tableSection"></div>
 
-    <!-- CHARTS (hidden initially) -->
+    <!-- CHARTS -->
     <div id="chartSection" style="display:none;"></div>
 
     <!-- RECOMMENDATIONS -->
     <div id="recoSection" style="display:none;"></div>
 
 </div>
-
-<script src="script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="script.js"></script>
+
+
 
 </body>
 </html>
